@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkySpiritLabs</title>
+  </head>
+  <body>
+    // Here is rendered the canvas, the 3D scene and the 3D objects
+    <canvas id="bg"></canvas>   
+
+    <main>
+      <header>
+        <h1>SkySpiritLabs</h1>
+        <p>🌎 Welcome to my website!</p>
+      </header>
+
+      <blockquote>
+        <p>Believe in the power of innovation to shape the future with the technology.</p>
+      </blockquote>
+
+      <section>
+        <h2>📜 About</h2>
+        <p>My name is Varga Zolt. I am a Mobile Software Architect, Team Lead and Senior iOS Engineer.</p>
+        <p>With over a decade of experience in various technologies, with a focus on Mobile, Cloud, and Security. </p>
+        <p>I have a passion for System Design, Research and Development, general Technology and Innovations. Love to share my knowledge and help people to unlock their hidden potential.</p>
+        <p>Believe that with small help most of people can unlock their hidden potential and make the world a better place.</p>
+      </section>
+
+      <section class="light">
+        <h2>👩🏽‍🚀 Project</h2>
+        <p>This project is created to learn new things in WEB developement with 3D animations and to share the knowledge with others.</p>
+        <p> Three.js is a powerful library for creating 3D scenes and objects. It is used in many projects, including games, VR, AR, and more.</p>
+      </section>
+
+      <blockquote>
+        <p>Let's get started.</p>
+      </blockquote>
+
+      <section class="left">
+        <h2>👨🏻‍🔧 Setup</h2>
+
+        <h3>3D Animation with java script</h3>
+        <p>Project demonstrates how to create 3D animations with Three.js and webgl, camera, lighthing, geometry, css grid, scroolbar animation, keyboard controll etc.</p>
+        <p>With Blender you can create 3D models and export them to three.js. For simple models you can use three.js simple geometry objects and just add simple textures on top on it.</p>
+
+        <h3>Basics</h3>
+        <p>To create this 3D website you need Scene, Camera and Renderer. Scene is a container for all objects, camera is a view point and renderer is a canvas where you can see the scene.</p>
+        
+        <h3>Camera</h3>
+        <p>What consider the Camera, there are more types in three.js, but for this project we will use PerspectiveCamera. </p>
+        <p>PerspectiveCamera is a camera that simulates the perspective of the human eye. It is based on a viewing frustum with a perspective projection matrix.</p>
+        <p>Camera has a position, rotation and fov (field of view). You can set the position and rotation of the camera with the set method. The fov is the angle of the camera, the smaller the angle the more zoomed in the camera is.</p>
+
+        <h3>Materials</h3>
+        <p>BasicMaterials are not affected by lights. They are rendered with the color set in the material. </p>
+        <p>StandardMaterials are affected by lights. They are rendered with the color set in the material and the color of the light.</p>
+        <p>Shaders are also used but is outside of the scope of this showcase. Particles are simulated like warp effect.</p>
+
+      </section>
+
+      <blockquote>
+        <p>Thanks for watching! <br><br>Yes, this object is Mars. <br><br>With keyboard buttons 'WASD' you can move the Torus Knot.</p>
+      </blockquote>
+    </main>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
